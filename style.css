@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    text-align: end;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+.cuadros img {
+    
+    width: 2dvh;  
+}
+header ul li {
+    display: inline;
+    padding: 4px;
+   
+}
+.logo-google{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+main section {
+    text-align: center;
+}
+.bus {
+    position: relative;
+    width: 271px;
+}
+#input-buscador {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+}
+.icon-buscador{
+    display: flex;
+    justify-content: centr;
+}
+.b4yCbb{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+}
+
+footer{
+    width: 100%;
+}
+footer ul {
+    display: inline-block;
+    margin: 15px 12px;
+}
+footer ul li {
+    display: inline;
+    padding: 15px;
+}
+.mex, .list {
+    background-color: #e9ebf0;
+}
+
+main {
+    margin-top: 150px;
+    margin-bottom: 265px;
+}
