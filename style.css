@@ -2,11 +2,14 @@
     font-family: 'Roboto', sans-serif;
 }
 header {
-    text-align: end;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 ul {
+    display: flex;
     list-style: none;
+    justify-content: center;
 }
 .cuadros img {
     
@@ -18,18 +21,19 @@ header ul li {
    
 }
 .logo-google{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto;
+   width: 40%;
 }
-main section {
+main {
     text-align: center;
 }
-.bus {
-    position: relative;
-    width: 271px;
+section {
+    display: block;
+    justify-content: center;
+}
+.btn-buscador {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 #input-buscador {
     box-sizing: border-box;
@@ -38,18 +42,17 @@ main section {
     width: 50%;
 }
 .icon-buscador{
-    display: flex;
-    justify-content: centr;
+    display: block;
+    justify-content: center;
 }
-.b4yCbb{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 12px;
-    top: 50%;
+.b4yCbb, .Nw0Dr, .icon-buscador{
+    width: 3vh;
 }
 
 footer{
+    display: block;
+    align-content: flex-end;
+    
     width: 100%;
 }
 footer ul {
@@ -62,9 +65,4 @@ footer ul li {
 }
 .mex, .list {
     background-color: #e9ebf0;
-}
-
-main {
-    margin-top: 150px;
-    margin-bottom: 265px;
 }
