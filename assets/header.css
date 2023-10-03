@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.cuadros img {
+    
+    width: 2dvh;  
+}
+header ul li {
+    display: inline;
+    padding: 4px;
+   
+}
