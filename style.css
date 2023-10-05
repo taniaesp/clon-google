@@ -13,35 +13,17 @@ main {
     margin-bottom: 32px;
 }
 
-.container-input {
-    width: 560px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-}
-.main-input-container
-section {
-    display: block;
-    justify-content: center;
-}
+
+
+
 .btn-buscador {
     display: flex;
     text-align: center;
     justify-content: center;
 }
-#input-buscador {
-    appearance: auto;
-    box-sizing: border-box;
-    color: #191919;
-    padding: 10px 10px 10px 10px;
-    width: 50%;
-}
-.icon-buscador{
-    display: block;
-    justify-content: center;
-}
-.b4yCbb, .Nw0Dr, .icon-buscador{
-    width: 3vh;
-}
+
+
+
 
 footer{
     display: block;
