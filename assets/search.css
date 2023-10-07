@@ -1,38 +1,49 @@
-.section-input-container{
-    display: flex;
-    width: 100%;
+.container-logo{
+  display: block;
 }
-.btn-buscador{
-    align-content: center;
-    width: 150px;
+.logo-google{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 92px;
+  width: 272px;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  
+}
+.campoBusqueda{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border-radius: 25px;
+  background-color: white;
+  margin-top: 15px;
+  width: 23%;
+  height: 35px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.iconBuscador{
+  text-align: center;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+#inputBuscador{
+  outline: none;
+  border: none;
+}
+.buttons {
+  display: flex;
+  
+}
+button{
+  width: 150px;
+  height: 50px;
 }
 
-.container-input {
-    width: 560px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-}
-
-section {
-    display: block;
-    justify-content: center;
-}
-
-.icon-buscador{
-    width: 25px;
-    position: absolute;
-}
-.icon-lupa{
-    width: 25px;
-    position: absolute;
-    
-}
-.container-input{
-    position: absolute;
-}
-
-#input-buscador{
-    width: 250px;
-    height: 35px;
-
-}
+  
