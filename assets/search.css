@@ -1,49 +1,102 @@
-.container-logo{
-  display: block;
-}
-.logo-google{
-  overflow-clip-margin: content-box;
-  overflow: clip;
-  height: 92px;
-  width: 272px;
-}
-.input-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  
-}
-.campoBusqueda{
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  border-radius: 25px;
-  background-color: white;
-  margin-top: 15px;
-  width: 23%;
-  height: 35px;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-}
-.iconBuscador{
-  text-align: center;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-}
-#inputBuscador{
-  outline: none;
-  border: none;
-}
-.buttons {
-  display: flex;
-  
-}
-button{
-  width: 150px;
-  height: 50px;
+@media screen and (max-width: 320px) {
+  .container-logo{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .logo-google{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 52px;
+    width: 122px;
+  }
+
+  .input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .campoBusqueda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 5px;
+    width: 70%;
+    height: 10%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  .iconBuscador{
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+  }
+  #inputBuscador{
+    outline: none;
+    border: none;
+  }
+
 }
 
+@media screen and (min-width: 700px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+  .container-logo{
+    display: block;
+  }
+  .logo-google{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 92px;
+    width: 322px;
+  }
+  .input-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+  }
+  .campoBusqueda{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 15px;
+    width: 23%;
+    height: 35px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  .iconBuscador{
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  #inputBuscador{
+    outline: none;
+    border: none;
+  }
+  .buttons {
+    display: flex;
+    
+  }
+  button{
+    width: 150px;
+    height: 50px;
+  }
+}
   
