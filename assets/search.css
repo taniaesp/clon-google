@@ -1,68 +1,93 @@
-  .container-logo{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-  }
-  .logo-google{
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    height: 20%;
-    width: 20%;
-  }
-  .input-container{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    
-  }
-  .campoBusqueda{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 25px;
-    background-color: white;
-    margin-top: 2%;
-    width: 33%;
-    height: auto;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2%;
-  }
-  .iconBuscadorOne{
-    text-align: center;
-    display: inline-block;
-    width: 25px;
-    height: 30px;
-  }
+.container-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.logo-google{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 20%;
+  width: 20%;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;  
+}
+
+.campoBusqueda{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  background-color: white;
+  margin-top: 2%;
+  width: 33%;
+  height: 45px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.iconBuscadorOne{
+  text-align: center;
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  padding: 0px 5px;
+}
+
 .iconBuscadorTwo{
   text-align: center;
   display: inline-block;
   width: 25px;
   height: 30px;
+  padding: 0px 5px;
 }
+
 .iconBuscadorThree{
   text-align: center;
   display: inline-block;
   width: 25px;
   height: 30px;
+  padding: 0px 15px;
 }
+
 .search-box{
   width: 80%;
   height: 35px;    
 }
+
 #inputBuscador{
   outline: none;
   border: none;
   width: 100%;
+  height: 90%;
+  font-size: 17px;
 }
+
 .buttons {
   display: flex;
   justify-content: space-between;  
 }
+
 button{
-  width: auto;
-  height: 20px;
+  display: flex;
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonOne, .buttonTwo {
+  padding: 0px 15px;
+  align-content: center;
+
 }
 
   
