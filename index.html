@@ -13,16 +13,19 @@
     <link rel="stylesheet" href="assets/search.css">
     <link rel="stylesheet" href="assets/footer.css">
 </head>
-<body>
+<body style="* {margin: 0;padding: 0;}">
     <header>
-        <ul>
-            <li> <a href="https://accounts.google.com">Gmail</a></li>
-            <li>Imagenes</li>
-            <li class="cuadros "> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+        <div class="divContainerHeader">
+            <ul>
+                <li> <a href="https://accounts.google.com">Gmail</a></li>
+                <li>Imagenes</li>
+                <li class="cuadros "> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor"class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
                 <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
-              </svg></i> </li>
-              <li> Perfil</li>
-        </ul>
+                </svg></i> </li>
+                <li> Perfil</li>
+             </ul>
+        </div>
+        
     </header>
     <main>
         <section class="container-logo">
@@ -34,7 +37,7 @@
         
         <section class="input-container">  
             <article class="campoBusqueda">
-                <div class="iconBuscador">
+                <div class="iconBuscadorOne">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0  0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                     </svg>
@@ -43,7 +46,7 @@
                     <input type="text" placeholder="Buscar" id="inputBuscador">
                 </div> 
                 
-                <div class="iconBuscador">
+                <div class="iconBuscadorTwo">
                     <svg class="Nw0Dr" alt="Búsqueda por voz" focusable="false" viewBox=" 0 0 25 25"
                         xmlns="http://www.w3.org/2000/svg">
                         <path fill="#4285f4"
@@ -60,7 +63,7 @@
                 </div>
                     
                 
-                 <div class="iconBuscador">
+                 <div class="iconBuscadorThree">
                     <svg class="b4yCbb" alt="Búsqueda con cámara" focusable="false" viewBox="0 0 192 192"
                         xmlns="http://www.w3.org/2000/svg">
                         <rect fill="none" height="192" width="192"></rect>
@@ -82,34 +85,37 @@
                     
             </article>   
             <article class="buttons">
-                <div><button>Buscar con google</button> </div>
+                <div class="buttonOne"><button>Buscar con google</button> </div>
                 
-                <div><button>Voy a tener suerte</button></div>
+                <div class="buttonTwo"><button>Voy a tener suerte</button></div>
             </article>
            
         </section>
         
     </main>
     <footer>
-        <section class="mex">
-            <ul>
-                <li>México</li>
-            </ul>
-        </section>
+        <section> 
+            <div class="mex">
+                <ul>
+                    <li>México</li>
+                </ul>
+            </div>
 
-        <section class="list">
-            <ul>
-                <li>Sobre Google</li>
-                <li>Publicidad</li>
-                <li>Negocios</li>
-                <li>Como funciona la busqueda</li>
-            </ul>
-            <ul>
-                <li>Pivacidad</li>
-                <li>Condiciones</li>
-                <li>Preferencias</li>
-            </ul>
+            <div class="list">
+                <ul>
+                    <li>Sobre Google</li>
+                    <li>Publicidad</li>
+                    <li>Negocios</li>
+                    <li>Como funciona la busqueda</li>
+                </ul>
+                <ul class="fin">
+                    <li>Pivacidad</li>
+                    <li>Condiciones</li>
+                    <li>Preferencias</li>
+                </ul>
+            </div>
         </section>
+        
     </footer>
     
 </body>
